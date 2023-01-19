@@ -1,0 +1,15 @@
+artifact_uri: file:///Volumes/Gowtham/Personnel/Upskill/MLOps/ML_Flow_Testing/mlruns/2/6e30255d8c41455aa3ceae5ba5dd2a1b/artifacts
+end_time: 1673439597502
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 6e30255d8c41455aa3ceae5ba5dd2a1b
+run_name: placid-hare-429
+run_uuid: 6e30255d8c41455aa3ceae5ba5dd2a1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673439592251
+status: 4
+tags: []
+user_id: gowthamswaminathan

@@ -1,0 +1,15 @@
+artifact_uri: file:///Volumes/Gowtham/Personnel/Upskill/MLOps/ML_Flow_Testing/mlruns/2/22ff2c6ba02b4dc09037819a26f5a654/artifacts
+end_time: 1673439706027
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 22ff2c6ba02b4dc09037819a26f5a654
+run_name: selective-boar-274
+run_uuid: 22ff2c6ba02b4dc09037819a26f5a654
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673439702146
+status: 3
+tags: []
+user_id: gowthamswaminathan

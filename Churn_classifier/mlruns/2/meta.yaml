@@ -1,0 +1,6 @@
+artifact_location: file:///Volumes/Gowtham/Personnel/Upskill/MLOps/ML_Flow_Testing/mlruns/2
+creation_time: 1673439592246
+experiment_id: '2'
+last_update_time: 1673439592246
+lifecycle_stage: active
+name: Tuned_classifier

@@ -1,0 +1,28 @@
+# For runnning all the below commands
+- Use seperate termianl at the respective folders for each classifier/model, then run the below commands
+
+# For Churn-classifier
+# Before running this file make sure the model is served
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5001
+export MLFLOW_TRACKING_URI=http://localhost:5001  
+mlflow models serve --model-uri models:/Churn-classifier/Production -p 6000 --env-manager=local
+
+
+# For Iris-classifier
+# Before running this file make sure the model is served
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5002
+export MLFLOW_TRACKING_URI=http://localhost:5002  
+mlflow models serve --model-uri models:/Iris-classifier/Production -p 6001 --env-manager=local
+
+
+# For Flight-satisfaction
+# Before running this file make sure the model is served
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5003
+export MLFLOW_TRACKING_URI=http://localhost:5003  
+mlflow models serve --model-uri models:/Flight-satisfaction/Production -p 6002 --env-manager=local
+
+
+# Once all the classifiers are up and running, now deploy it using Fast API
+# Run deploy.py file using the below command
+python -m uvicorn deploy:app --reload
+# To check the FaskAPI page go the url and then type /docs#

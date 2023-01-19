@@ -1,0 +1,15 @@
+artifact_uri: file:///Volumes/Gowtham/Personnel/Upskill/MLOps/ML_Flow_Testing/mlruns/2/b1a3c4f06f4d45f4abaeb0a1acdb869e/artifacts
+end_time: 1673538808528
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: b1a3c4f06f4d45f4abaeb0a1acdb869e
+run_name: delightful-colt-902
+run_uuid: b1a3c4f06f4d45f4abaeb0a1acdb869e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1673538801798
+status: 3
+tags: []
+user_id: gowthamswaminathan
