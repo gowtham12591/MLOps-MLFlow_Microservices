@@ -1,0 +1,15 @@
+artifact_uri: file:///Volumes/GL/TECH/IIITH/TA_Session_Material/DVC_Handson/mlruns/1/c3ce2a4168af463cab2bfa54f4bcfe1d/artifacts
+end_time: 1674124022958
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: c3ce2a4168af463cab2bfa54f4bcfe1d
+run_name: luminous-shrew-799
+run_uuid: c3ce2a4168af463cab2bfa54f4bcfe1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674124012004
+status: 3
+tags: []
+user_id: gowthamswaminathan

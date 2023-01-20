@@ -1,0 +1,7 @@
+{
+  "LogisticRegression_score_X_train_sc": "LogisticRegression.score(X=X_train_sc, y=y_train)",
+  "accuracy_score_X_test_sc": "accuracy_score(y_true=y_test, y_pred=y_pred)",
+  "log_loss_X_test_sc": "log_loss(y_true=y_test, y_pred=y_pred_prob)",
+  "precision_score_X_test_sc": "precision_score(y_true=y_test, y_pred=y_pred, average='micro')",
+  "recall_score_X_test_sc": "recall_score(y_true=y_test, y_pred=y_pred, average='micro')"
+}

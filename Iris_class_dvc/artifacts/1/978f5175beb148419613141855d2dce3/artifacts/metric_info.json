@@ -1,0 +1,3 @@
+{
+  "LogisticRegression_score_X_train_sc": "LogisticRegression.score(X=X_train_sc, y=y_train)"
+}
