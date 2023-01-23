@@ -21,6 +21,12 @@ mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./
 export MLFLOW_TRACKING_URI=http://localhost:5003  
 mlflow models serve --model-uri models:/Flight-satisfaction/Production -p 6002 --env-manager=local
 
+# For Iris-dvc
+# Before running this file make sure the model is served
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5004
+export MLFLOW_TRACKING_URI=http://localhost:5004  
+mlflow models serve --model-uri models:/Iris-dvc/Production -p 6004 --env-manager=local
+
 
 # Once all the classifiers are up and running, now deploy it using Fast API
 # Run deploy.py file using the below command
